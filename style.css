@@ -63,10 +63,14 @@
 .border:hover{
     border: 1.5px solid white;
 }
+.nav-search:hover{
+    border:1.8px solid orange;
+}
 .search_select{
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border: none;
+    padding-left: 0.4rem;
 
 }
 .search_input{
@@ -75,4 +79,78 @@
     border-top-left-radius:4px;
     border-bottom-left-radius:4px;
     border: none;
+}
+.nav-fir{
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+}
+.nav-cart i{
+    font-size: 1.6rem;
+    margin-right: 0.6rem;
+}
+.nav-cart p{
+    font-weight: 600;
+    margin-top: 0.3rem;
+}
+.panel{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.panel_menu{
+    display: flex;
+    margin-left: 1.5rem;
+    align-items: center;
+    margin-right:1.5rem
+}
+.panel_menu i{
+    margin-right: 0.3rem;
+    font-size: 1.2rem;
+    padding-bottom: 0.2rem;
+}
+.panel_menu_content{
+    font-weight: 700;
+    font size: 1rem;
+}
+.panel_shop{
+    display:flex;
+    align-items: center;
+    width: 70%;
+}
+.panel_shop p{
+    margin-right: 1.2rem;
+    font-weight: 300;
+}
+.panel_deals{
+    align-items: center;
+    font-weight: 700;
+}
+
+.hero_section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.hero_content{
+    justify-content: center;
+    background-color: white;
+    color: black;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    font-size: 0  .85rem;
+}
+.hero_content a{
+    color: #007185;
 }
